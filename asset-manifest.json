@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Proyecto-la_atrevida/static/css/main.176e8180.css",
+    "main.js": "/Proyecto-la_atrevida/static/js/main.d79dfba0.js",
+    "static/js/787.dd9093ce.chunk.js": "/Proyecto-la_atrevida/static/js/787.dd9093ce.chunk.js",
+    "static/media/portada.webp": "/Proyecto-la_atrevida/static/media/portada.680a26e0912a44e9bd5e.webp",
+    "static/media/logo_laatrevida.png": "/Proyecto-la_atrevida/static/media/logo_laatrevida.df1ed6c23849210e1b00.png",
+    "index.html": "/Proyecto-la_atrevida/index.html",
+    "main.176e8180.css.map": "/Proyecto-la_atrevida/static/css/main.176e8180.css.map",
+    "main.d79dfba0.js.map": "/Proyecto-la_atrevida/static/js/main.d79dfba0.js.map",
+    "787.dd9093ce.chunk.js.map": "/Proyecto-la_atrevida/static/js/787.dd9093ce.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.176e8180.css",
+    "static/js/main.d79dfba0.js"
+  ]
+}
