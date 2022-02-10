@@ -1,0 +1,21 @@
+:root{
+    --letter-color: #F0F7F5;
+    --background-color-trasnparency-navbar: rgba(33, 37, 41, 0.4);
+    --background-color-navbar:#212529;
+    --second-color:#93CCB8;
+} 
+
+
+
+body{
+    background-color: #757c83;
+    margin: 0;
+    padding: 0;
+}
+
+.portada{
+    width: 100%;
+    height: 900px; 
+    margin: auto;
+
+}

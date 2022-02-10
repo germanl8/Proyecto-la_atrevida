@@ -4,6 +4,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
 import './css/NavBar.css';
+import './css/Slide.css'
 import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 
