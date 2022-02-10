@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import Logo from "../img/logo_laatrevida.png";
 import Navbar_select from "../img/navbar_select.png";
 import Portada from "../img/portada.webp";
+import Portada2 from "../img/portada2.jpg";
+import Portada3 from "../img/portada3.jpg";
+import Portada4 from "../img/portada4.jpg";
+
+import Carousel from 'react-bootstrap/Carousel'
 //import $ from 'jquery';
 
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
@@ -30,7 +35,7 @@ const Barrasup = () => {
         setShow(false);
     }
 
-  
+
     return (
 
         <div>
@@ -69,12 +74,38 @@ const Barrasup = () => {
                 </Container>
             </Navbar>
 
-            <div id="contenido_web1" className="mx-auto">
-                <img src={Portada} alt="" width="100%" height="100%" />
+            <div id="contenido_web11" className="mx-auto">
+                <img src={Portada} className="contenido_web1" alt="" />
             </div>
             <div id="contenido_web2" className="mx-auto"></div>
             <div id="contenido_web3" className="mx-auto"></div>
 
+
+            {/* <Carousel fade>
+                <Carousel.Item>
+                    <img
+                        className="d-block portada"
+                        src="https://static.wixstatic.com/media/b2e868_b93bb30c30494ef6a78cd42ce9dae599.jpg/v1/fill/w_910,h_475,al_c,q_85,usm_0.66_1.00_0.01/b2e868_b93bb30c30494ef6a78cd42ce9dae599.webp"
+                        alt="First slide"
+                    />
+                   
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block portada"
+                        src="https://static.wixstatic.com/media/b2e868_d6af1b4df820449b987cce2005e559f8.jpg/v1/fill/w_945,h_584,al_c,q_85,usm_0.66_1.00_0.01/b2e868_d6af1b4df820449b987cce2005e559f8.jpg"
+                        alt="Second slide"
+                    />
+
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                        className="d-block portada"
+                        src="https://static.wixstatic.com/media/b2e868_a76a81ac367a4a728f2db477abf968e3~mv2.jpg/v1/fill/w_945,h_627,al_c,q_85,usm_0.66_1.00_0.01/b2e868_a76a81ac367a4a728f2db477abf968e3~mv2.jpg"
+                        alt="Third slide"
+                    />
+                </Carousel.Item>
+            </Carousel> */}
 
 
         </div>
