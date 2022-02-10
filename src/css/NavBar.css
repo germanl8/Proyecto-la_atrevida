@@ -1,7 +1,8 @@
 :root{
     --letter-color: #F0F7F5;
-    --background-color-trasnparency: rgba(33, 37, 41, 0.4);
-    --background-color:#212529;
+    --background-color-trasnparency-navbar: rgba(33, 37, 41, 0.4);
+    --background-color-navbar:#212529;
+    --secondary-color:#93CCB8;
 } 
 
 
@@ -14,15 +15,17 @@ body{
 
 
 .background_color{
-    background-color: var(--background-color) !important;
+    background-color: var(--background-color-navbar) !important;
     color: var(--letter-color) !important;
+    transition: 0.7s;
     
 
 }
 
 .background_color_transparency{
-    background-color: var(--background-color-trasnparency) !important;
+    background-color: var(--background-color-trasnparency-navbar) !important;
     color: var(--letter-color) !important;
+    transition: 0.7s;
    
 }
 
@@ -37,7 +40,11 @@ body{
    
 }
 
-.dropdowns-menu{
+.dropdown-menu{
+    top:40px !important;
+}
+
+.dropdown-menu{
     background-color: var(--background-color-trasnparency);
 }
 
@@ -45,11 +52,29 @@ body{
     color: #94ccba !important;
 }
 
-
 .colors_letters{
     color: var(--letter-color) !important;
     
 }
+
+/* 
+
+------animacion linea debajo de los a-----
+.selector_nav ::before{
+    content: "";
+    height: 3px;
+    width: 30%;
+    background-color: var(--secondary-color);
+    position: absolute;
+    left: 0;
+    bottom: 1px;
+    transition: 0.4s ease-out;
+}
+
+.selector_nav :hover::before{
+    width: 100%;
+} */
+
 
 
 #contenido_web1{
