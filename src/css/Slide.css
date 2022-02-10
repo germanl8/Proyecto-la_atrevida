@@ -19,3 +19,22 @@ body{
     margin: auto;
 
 }
+
+.wapp_link{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 20px;
+    top: 350px;
+    z-index: 1;
+    display:block;
+}
+
+#container-carousel{
+    position: relative;
+}
+
+
+#container-wapp_link{
+    background: transparent !important;
+}
