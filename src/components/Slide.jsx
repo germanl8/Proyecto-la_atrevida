@@ -1,14 +1,22 @@
 import React, { useState } from "react";
 import Portada from "../img/portada.webp";
-import Portada2 from "../img/portada2.jpg";
 import Portada3 from "../img/portada3.jpg";
-import Portada4 from "../img/portada4.jpg";
 import Carousel from 'react-bootstrap/Carousel';
 import Wapp from '../img/wapp.png';
-import { Nav } from "react-bootstrap";
+import Spinner from 'react-bootstrap/Spinner';
 
 const Slide = () => {
 
+
+
+
+
+
+    // const btn_wapp = document.querySelector("#btn_wapp");
+
+    //     btn_wapp.addEventListener("mouseover", function(){
+    //         btn_wapp.show = true;
+    //    });
 
 
     return (
@@ -31,15 +39,14 @@ const Slide = () => {
                     />
                 </Carousel.Item>
             </Carousel>
-            <div id="container-wapp_link">
-            <Nav.Link className="wapp_link" href="https://wa.me/59899840548">
-                <img className="wapp_link" src={Wapp} href="https://wa.me/59899840548"/>
-                <p className="wapp_link">Consultas por WhatsApp</p>
-            </Nav.Link>
-            </div>
-            
 
-            <div id="contenido_web2" className="mx-auto"></div>
+            <div id="container-wapp">
+                <a className="txt-wsp" id="btn_wapp" href="https://api.whatsapp.com/send?phone=+59899840548" target="_blank">- To make a reservation now!</a>
+                <img src={Wapp} alt="WhatsApp" className="btn-wsp"/>
+                
+        
+            </div>
+            <div id="contenido_web2" className="mx-auto" ></div>
             <div id="contenido_web3" className="mx-auto"></div>
 
         </div>

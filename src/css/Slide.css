@@ -3,19 +3,21 @@
     --background-color-trasnparency-navbar: rgba(33, 37, 41, 0.4);
     --background-color-navbar:#212529;
     --second-color:#93CCB8;
+    --font-text: 'Vollkorn', serif;
 } 
 
-
-
-body{
-    background-color: #757c83;
+*{
     margin: 0;
     padding: 0;
 }
 
+body{
+    background-color: #757c83;
+}
+
 .portada{
     width: 100%;
-    height: 900px; 
+    height: 100%; 
     margin: auto;
 
 }
@@ -25,9 +27,18 @@ body{
     height: 100px;
     position: absolute;
     right: 20px;
-    top: 350px;
+    top: 400px;
     z-index: 1;
     display:block;
+}
+
+.wapp_p{
+    position: absolute;
+    top: 400px;
+    right: 120px;
+    color: var(--second-color);
+    font-family: 'Vollkorn', serif;
+    font-size: 20px;
 }
 
 #container-carousel{
@@ -37,4 +48,110 @@ body{
 
 #container-wapp_link{
     background: transparent !important;
+}
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:100px;
+    right:25px;
+    background:var(--letter-color);
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 60px 10px -10px rgba(0,0,0,0.3), 0px 60px 10px -10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+
+
+}
+
+img.btn-wsp{
+    animation-delay: .3s;
+}
+
+@keyframes anime{
+    100%{
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        box-shadow: 0 40px 10px -18px rgba(0,0,0,0.2), 0 40px 16px -12px rgba(0,0,0,0.2);
+    }
+}
+    
+.btn-wsp:hover{
+    background: var(--second-color);
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+
+
+
+.txt-wsp{
+    text-decoration: none;
+    position:fixed;
+    width:319px;
+    height:60px;
+    line-height: 63px;
+    bottom:100px;
+    right:25px;
+    background:var(--background-color-navbar);
+    color:var(--letter-color);
+    border-color: var(--second-color);
+    border-radius:50px;
+    text-align:left;
+    font-size:20px;
+    font-family: var(--font-text) ;
+    box-shadow: 0px 60px 10px -10px rgba(0,0,0,0.3), 0px 60px 10px -10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: anime 1s infinite ease-in-out alternate;
+    
+}
+
+a.txt-wsp{
+    animation-delay: .6s;
+}
+
+@keyframes anime{
+    100%{
+        transform: translateY(20px);
+        -webkit-transform: translateY(20px);
+        -moz-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        -o-transform: translateY(20px);
+        box-shadow: 0 40px 10px -18px rgba(0,0,0,0.2), 0 40px 16px -12px rgba(0,0,0,0.2);
+    }
+}
+    
+
+.txt-wsp:hover{
+    background: var(--second-color);
+    text-decoration: none;
+    color: var(--background-color-navbar);
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .txt-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+
+.btn_wapp_display{
+    display:none;
 }
