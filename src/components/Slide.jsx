@@ -3,7 +3,7 @@ import Portada from "../img/portada.webp";
 import Portada3 from "../img/portada3.jpg";
 import Carousel from 'react-bootstrap/Carousel';
 import Wapp from '../img/wapp.png';
-import Spinner from 'react-bootstrap/Spinner';
+
 
 const Slide = () => {
 
@@ -21,34 +21,36 @@ const Slide = () => {
 
     return (
 
-        <div id="container-carousel">
-            <Carousel fade>
-                <Carousel.Item>
-                    <img
-                        className="d-block portada"
-                        src={Portada}
-                        alt="First slide"
-                    />
-                </Carousel.Item>
+        <div>
 
-                <Carousel.Item>
-                    <img
-                        className="d-block portada"
-                        src={Portada3}
-                        alt="Third slide"
-                    />
-                </Carousel.Item>
-            </Carousel>
+            <div id="container-carousel" className="sombra">
+                        <Carousel fade>
+                            <Carousel.Item>
+                                <img
+                                    className="d-block portada"
+                                    src={Portada}
+                                    alt="First slide"
+                                />
+                            </Carousel.Item>
+
+                            <Carousel.Item>
+                                <img
+                                    className="d-block portada"
+                                    src={Portada3}
+                                    alt="Third slide"
+                                />
+                            </Carousel.Item>
+                        </Carousel>
+            </div>
+        
 
             <div id="container-wapp">
                 <a className="txt-wsp" id="btn_wapp" href="https://api.whatsapp.com/send?phone=+59899840548" target="_blank">- To make a reservation now!</a>
                 <img src={Wapp} alt="WhatsApp" className="btn-wsp"/>
-                
-        
             </div>
-            <div id="contenido_web2" className="mx-auto" ></div>
-            <div id="contenido_web3" className="mx-auto"></div>
 
+            <div id="div_aboutus" className="mx-auto" ></div>
+            <div id="contenido_web3" className="mx-auto"></div>
         </div>
 
     )
