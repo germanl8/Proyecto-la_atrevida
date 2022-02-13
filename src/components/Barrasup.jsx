@@ -44,6 +44,7 @@ const Barrasup = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll>
                             <Nav.Link href="#home" className="colors_letters selector_nav">Home</Nav.Link>
+                            <Nav.Link href="#link" className="colors_letters selector_nav">About Us</Nav.Link>
 
                             <NavDropdown
                                 className="colors_letters selector_nav"

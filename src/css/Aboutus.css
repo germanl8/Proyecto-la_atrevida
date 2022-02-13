@@ -1,0 +1,72 @@
+:root{
+    --letter-color: #F0F7F5;
+    --background-color-trasnparency-navbar: rgba(33, 37, 41, 0.4);
+    --background-color-navbar:#212529;
+    --second-color:#93CCB8;
+    --font-text2: 'Vollkorn', serif;
+    --font-text1: 'Amaranth', sans-serif;
+} 
+
+
+#container-aboutus{
+    background-color: white;
+    width: 100%;
+    height: 750px;
+    margin: auto;
+    position: absolute;
+}
+
+
+.container_imgTxt{
+    
+    width: 75%;
+    height: 75%;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.container_imgTxt h1{
+    text-align: center;
+    font-family: var(--font-text1);
+}
+
+.container_imgTxt div{
+    font-family: var(--font-text2);
+    font-size: 1.3em;
+    display:inline-block;
+    width: 50%;
+    height: 80%;
+    margin-top: 20px;
+    position: absolute;
+}
+.img_aboutus{
+    
+    right: 50%;
+    position: relative;
+}
+
+.txt_aboutus{
+    
+    text-align: center;
+    left: 50%;
+    position: relative;
+}
+
+.txt_aboutus p, 
+.img_aboutus img{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    margin: 20px;
+}
+
+.img_aboutus img{
+    transform: translate(20%, -50%);
+}
+
+
+
+
+
+

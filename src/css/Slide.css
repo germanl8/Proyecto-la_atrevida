@@ -6,6 +6,7 @@
     --font-text: 'Vollkorn', serif;
 } 
 
+
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ body{
 
 .portada{
     width: 100%;
-    height: 100%; 
+    height: 1000px; 
     margin: auto;
     border-style: solid;
     border-bottom-color: var(--background-color-navbar);
@@ -72,8 +73,9 @@ body{
     animation: anime 1s infinite ease-in-out alternate;
     -webkit-animation: anime 1s infinite ease-in-out alternate;
 
-
 }
+
+
 
 img.btn-wsp{
     animation-delay: .3s;
@@ -99,8 +101,7 @@ img.btn-wsp{
         height:63px;
         line-height: 66px;
 	}
-}
-
+} 
 
 
 
@@ -114,7 +115,6 @@ img.btn-wsp{
     right:25px;
     background:var(--background-color-navbar);
     color:var(--letter-color);
-    border-color: var(--second-color);
     border-radius:50px;
     text-align:left;
     font-size:20px;
@@ -128,7 +128,7 @@ img.btn-wsp{
 }
 
 a.txt-wsp{
-    animation-delay: .6s;
+    animation-delay: .3s;
 }
 
 @keyframes anime{
@@ -158,11 +158,4 @@ a.txt-wsp{
 
 .btn_wapp_display{
     display:none;
-}
-
-#div_aboutus{
-    background-color: white;
-    width: 100%;
-    height: 750px;
-    margin: auto;
 }
